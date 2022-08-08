@@ -18,7 +18,7 @@ Popup with HTML and CSS
 ### Links
 
 - Solution URL: [hooli-style-popup](https://github.com/Lara-trost/hooli-style-popup)
-- Live Site URL: [hooli-style-popup](https://your-live-site-url.com)
+- Live Site URL: [hooli-style-popup](https://lara-trost.github.io/hooli-style-popup/)
 
 ## My process
 
