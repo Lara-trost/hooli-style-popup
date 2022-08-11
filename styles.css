@@ -140,33 +140,31 @@ li.popup_item {
     visibility: hidden; 
 }
      
-.crumb:hover {
+.crumb:hover,
+.popup_btn:hover, 
+.popup_item:hover {
     border: 1px solid grey;
 }
 
-.crumb:focus-within {
+.crumb:focus-within,
+.popup_item:focus-within, 
+.popup_btn:focus-within {
     border: 1px solid blue; 
 }
 
-.popup_item:hover {
-border: 1px solid grey;
+a:hover {
+    color: grey;
 }
 
-.popup_item:focus-within {
-    border: 1px solid blue;
+a:focus {
+  color: blue;  
 }
 
-.popup_btn:hover {
-    border: 1px solid grey;
+
+input[type=checkbox]:focus + label {
+    outline: rgb(59, 153, 252) auto 5px; 
 }
 
-.popup_btn:focus-within {
-    border: 1px solid blue;
-}
-
-p {
-    margin-top: 0.4em;
-}
 
 @media only screen and (max-width: 310px) {
    .popup {
