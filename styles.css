@@ -62,8 +62,8 @@ input[type=checkbox]{
 }
 
 .icon {
-    max-width: 3em; 
-    max-height: 3em;  
+    width: 3em; 
+    height: 3em;  
     object-fit: contain;
     display: block;
     margin: 0 auto; 
@@ -101,7 +101,6 @@ input[type=checkbox]{
     justify-content: space-around;
     gap: 0.5em;
     padding: 0.4em;
-    align-items: baseline;
 }
 
 .popup_btn {
@@ -127,6 +126,17 @@ li.popup_item {
     display:inline-flex;
     justify-content: center; 
     align-items: center;
+}
+
+.popup_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_more {
+    padding: 1.5em;
 }
 
 .popup_more:checked ~ .more {
