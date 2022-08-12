@@ -1,9 +1,10 @@
 # hooli-style-popup
+
 Popup with HTML and CSS
 
 ## Table of contents
 
-  - [Links](#links)
+- [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -24,42 +25,56 @@ Popup with HTML and CSS
 
 ### Built with
 
-- HTML5 
-- CSS 
+- HTML5
+- CSS
 - Flexbox
 
 ### What I learned
 
- - Створити чекбокс:
+- Створити чекбокс:
+
 ```html
-<input type="checkbox" id="checkbox_toggle" name="checkbox_toggle" class="check_input" tabindex="0">
-<label for="checkbox_toggle" class="check" >
-  <img src="./icons/popup-button.png" alt="start-menu">
+<input
+  type="checkbox"
+  id="checkbox_toggle"
+  name="checkbox_toggle"
+  class="check_input"
+  tabindex="0"
+/>
+<label for="checkbox_toggle" class="check">
+  <img src="./icons/popup-button.png" alt="start-menu" />
 </label>
 ```
- - Зробити інтерактивний елемент доступним для клавіатури
- ```html
- tabindex="0"
- ```
 
- - Приховати чекбокс
+- Зробити інтерактивний елемент доступним для клавіатури
+
+```html
+tabindex="0"
+```
+
+- Приховати чекбокс
+
 ```css
-input[type=checkbox]{
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 ```
+
 - Приховати вміст
+
 ```css
-    opacity: 0;
-    visibility: hidden;
+opacity: 0;
+visibility: hidden;
 ```
-- Показати вміст 
+
+- Показати вміст
+
 ```css
 .check_input:checked ~ .popup {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 ```
 
