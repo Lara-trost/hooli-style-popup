@@ -75,6 +75,19 @@ visibility: hidden;
   visibility: visible;
 }
 ```
+- Фокусування елементів:
+
+```css
+.check_input:focus + .check {
+  outline: rgb(59, 153, 252) auto 5px;
+  outline-offset: 0.8em;
+}
+
+.popup_item:focus-within,
+.popup_more:focus + .popup_btn {
+  outline: rgb(59, 153, 252) auto 5px;
+}
+```
 
 ### Useful resources
 
@@ -88,3 +101,4 @@ visibility: hidden;
 ## Acknowledgments
 
 Дякую за допомогу в пошуку ресурсів Andrii Shchur.
+Thanks a lot my mentor Alexandr Ostrovnyy for his help.
